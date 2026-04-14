@@ -68,7 +68,7 @@ a:hover { text-decoration:underline; }
         <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
         <button type="submit">Register</button>
     </form>
-    <p>Already have an account? <a href="scholarlogin.html">Login</a></p>
+    <p>Already have an account? <a href="slogin.html">Login</a></p>
 </div>
 
 <script>
@@ -90,7 +90,7 @@ function createStudentAccount() {
     localStorage.setItem("studentPassword", password);
 
     alert("Account created successfully! You can now login.");
-    window.location.href = "scholarlogin.html";
+    window.location.href = "login.html";
     return false;
 }
 </script>
